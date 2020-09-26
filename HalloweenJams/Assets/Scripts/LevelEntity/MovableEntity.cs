@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class MovableEntity : LevelEntity
 {
-    public int minions = 0;
-
     protected Vector2 direction = new Vector2();
     protected Vector2 target;
 

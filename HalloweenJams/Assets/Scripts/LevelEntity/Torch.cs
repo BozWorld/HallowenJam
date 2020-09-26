@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Minion : LevelEntity
+public class Torch : LevelEntity
 {
-    public Minion()
+    public Torch()
     {
         canGoThrough = false;
     }
 
     public override void Interact(Player player)
     {
-        player.minionsCount += 1;
+        player.gotTorch = true;
         Destroy(gameObject);
     }
 }
