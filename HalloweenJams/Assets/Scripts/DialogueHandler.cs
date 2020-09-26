@@ -13,10 +13,13 @@ public class DialogueHandler : MonoBehaviour
     [SerializeField] private List<GameObject> _ButtonInteraction = null;
     private void Start() 
     {
+        textDisplay = GameObject.Find("TextBox").GetComponent<TextMeshProUGUI>();
+        
         StartCoroutine(Type());
     }
     void Update()
     {
+        
         if (textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.Dialogue)
         {
             continueButton.SetActive(true);
@@ -41,7 +44,8 @@ public class DialogueHandler : MonoBehaviour
             textDisplay.text = "";
             StartCoroutine(Type());
 
-        } 
+        }
+         
         switch (_dialogueList[index].type)
         {
             case DialogueLine.DialogueType.End:
@@ -50,12 +54,17 @@ public class DialogueHandler : MonoBehaviour
 
             case DialogueLine.DialogueType.Choice:
                 int y = 0;
-                foreach (GameObject i in _ButtonInteraction)
+                for (int i = 0; i < _ButtonInteraction.Count; i++)
                 {
+                _ButtonInteraction[i] = GameObject.Find("UiManager").GetComponent<UiManager>().ChoiceButton[i];   
                 int __choiceIdx = _dialogueList[index].ChoiceIdx[y];
                 _ButtonInteraction[y].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _dialogueList[__choiceIdx].text;
-                i.SetActive(true);
-                y++;
+                _ButtonInteraction[i].SetActive(true);
+                y++; 
+                }
+                foreach (GameObject i in _ButtonInteraction)
+                {
+                
                 }
                  //int choiceIdx = _dialogueList[index].ChoiceIdx1;
                 //_ButtonInteraction[0].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _dialogueList[choiceIdx].text;
@@ -65,10 +74,9 @@ public class DialogueHandler : MonoBehaviour
                 break;
         }
     }
-    public void ChoiceMaker()
+    public void ChoiceMaker(int ChoiceParameter)
     {
-            Debug.Log(index);
-            index = _dialogueList[index].nextLineIndex;
+            index = ChoiceParameter; 
             textDisplay.text = "";
             StartCoroutine(Type());
     }
