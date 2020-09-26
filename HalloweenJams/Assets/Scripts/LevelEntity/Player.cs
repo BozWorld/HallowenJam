@@ -7,6 +7,9 @@ public class Player : MovableEntity
     public bool canChangeMinionCount1 = true;
     public bool canChangeMinionCount2 = true;
 
+    public bool gotTorch = false;
+    public bool isBallMoving = false;
+
     public int minionsCount = 0;
 
     private void Update()
@@ -22,5 +25,18 @@ public class Player : MovableEntity
         }
 
         //Debug.Log(minionsCount);
+    }
+
+    override public void MoveEntity(Vector2 axis, bool rotateOnly)
+    {
+        if (!isBallMoving)
+        {
+            if (!rotateOnly)
+            {
+                target = new Vector2(Mathf.Round(transform.position.x + axis.x * movementValues.squareSize), Mathf.Round(transform.position.y + axis.y * movementValues.squareSize));
+                isMoving = true;
+            }
+            direction = axis;
+        }
     }
 }

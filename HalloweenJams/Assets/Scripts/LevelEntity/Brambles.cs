@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Minion : LevelEntity
+public class Brambles : LevelEntity
 {
-    public Minion()
+    public Brambles()
     {
         canGoThrough = false;
     }
 
     public override void Interact(Player player)
     {
-        player.minionsCount += 1;
-        Destroy(gameObject);
+        if (player.gotTorch)
+            Destroy(gameObject);
     }
 }

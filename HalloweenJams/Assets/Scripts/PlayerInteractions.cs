@@ -8,6 +8,9 @@ public class PlayerInteractions : MonoBehaviour
     private float timer = 0;
     private Player player;
 
+    [SerializeField]
+    private Turns turns;
+
     private void Start()
     {
         player = gameObject.GetComponent<Player>();
@@ -66,21 +69,12 @@ public class PlayerInteractions : MonoBehaviour
 
         for (int i = 0;  i < 4; i ++)
         {
-
             hit = Physics2D.Raycast(transform.position, directions[i]);
             MovableEntity entity = null;
 
-            if (hit.collider != null && hit.collider.gameObject.name != "Player")
-            {
-                Debug.Log(directions[i].x + ":" + directions[i].y);
-            }
             if (hit.collider != null)
             {
                 entity = hit.collider.gameObject.GetComponent<MovableEntity>();
-                if (hit.collider.gameObject.name != "Player")
-                {
-                    Debug.Log(hit.collider.gameObject.name);
-                }
             }
 
             if (entity != null && entity.InteractOnRaycast())
@@ -101,7 +95,6 @@ public class PlayerInteractions : MonoBehaviour
 
         timer += Time.deltaTime;
 
-
         if (movementInput.x != 0 || movementInput.y != 0 && !player.IsEntityMoving() && timer > 0.2f)
         {
             Collider2D frontEntity = GetFrontEntity(movementInput);
@@ -109,19 +102,21 @@ public class PlayerInteractions : MonoBehaviour
             player.canChangeMinionCount2 = true;
             if (frontEntity == null || frontEntity.gameObject.GetComponent<LevelEntity>().CanGoThrough())
             {
-                timer = 0;
                 player.MoveEntity(movementInput, false);
+                turns.turns += 1;
             }
             else
             {
-                timer = 0;
                 player.MoveEntity(movementInput, true);
             }
+
+            timer = 0;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && timer > 0.2f)
         {
             timer = 0;
+            turns.turns += 1;
             Collider2D frontEntity = GetFrontEntity(player.GetDirection());
 
             if (frontEntity != null)
