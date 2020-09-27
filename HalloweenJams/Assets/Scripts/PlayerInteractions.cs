@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteractions : MonoBehaviour
 {
@@ -113,7 +113,7 @@ public class PlayerInteractions : MonoBehaviour
             timer = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && timer > 0.2f)
+        if (Input.GetKeyDown(KeyCode.Space) && timer > 0.2f && player.canPlayerInteract)
         {
             timer = 0;
             turns.turns += 1;
@@ -123,9 +123,15 @@ public class PlayerInteractions : MonoBehaviour
                 frontEntity.gameObject.GetComponent<LevelEntity>().Interact(player);
         }
 
-        if (sameSquareEntity != null && sameSquareEntity.gameObject.GetComponent<LevelEntity>().InteractOnSameSquare())
+        if (Input.GetKeyDown(KeyCode.R) && timer > 0.2f && player.canPlayerInteract)
+        {
+            turns.turns = 0;
+            SceneManager.LoadScene("Movement");
+        }
+
+        if (sameSquareEntity != null && sameSquareEntity.gameObject.GetComponent<LevelEntity>().InteractOnSameSquare() && player.canPlayerInteract)
             sameSquareEntity.gameObject.GetComponent<LevelEntity>().Interact(player);
-        if (raycastHit != null)
+        if (raycastHit != null && player.canPlayerInteract)
             raycastHit.gameObject.GetComponent<LevelEntity>().Interact(player);
     }
 }

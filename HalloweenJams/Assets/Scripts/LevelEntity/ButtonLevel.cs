@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Button : LevelEntity
+public class ButtonLevel : LevelEntity
 {
     [SerializeField]
     private int minionsNeeded = 0;
     [SerializeField]
     private Trigger trigger;
 
-    public Button()
+    public ButtonLevel()
     {
         canGoThrough = false;
     }
@@ -29,6 +29,11 @@ public class Button : LevelEntity
     }
 
     private void OnApplicationQuit()
+    {
+        trigger.isTrigger = false;
+    }
+
+    private void OnLevelWasLoaded(int level)
     {
         trigger.isTrigger = false;
     }

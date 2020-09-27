@@ -30,7 +30,7 @@ public class Ball : MovableEntity
                 MoveEntity(axis, false);
             }
 
-            player.isBallMoving = true;
+            player.canPlayerInteract = false; ;
         }
     }
 
@@ -42,7 +42,7 @@ public class Ball : MovableEntity
             if (transform.position.x == target.x && transform.position.y == target.y)
             {
                 isMoving = false;
-                playerMemory.isBallMoving = false;
+                playerMemory.canPlayerInteract = true;
             }
         }
     }

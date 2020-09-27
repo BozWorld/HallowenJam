@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovableEntity : LevelEntity
 {
     protected Vector2 direction = new Vector2();
-    protected Vector2 target;
+    protected Vector3 target;
 
     protected bool isMoving = false;
 
@@ -27,7 +27,7 @@ public class MovableEntity : LevelEntity
     {
         if (isMoving)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target, movementValues.speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target, movementValues.speed * Time.deltaTime);
             if (transform.position.x == target.x && transform.position.y == target.y)
                 isMoving = false;
         }
@@ -37,7 +37,7 @@ public class MovableEntity : LevelEntity
     {
         if (!rotateOnly)
         {
-            target = new Vector2(Mathf.Round(transform.position.x + axis.x * movementValues.squareSize), Mathf.Round(transform.position.y + axis.y * movementValues.squareSize));
+            target = new Vector3(Mathf.Round(transform.position.x + axis.x * movementValues.squareSize), Mathf.Round(transform.position.y + axis.y * movementValues.squareSize), transform.position.z);
             isMoving = true;
         }
         direction = axis;

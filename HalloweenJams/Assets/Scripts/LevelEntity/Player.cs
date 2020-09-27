@@ -8,7 +8,7 @@ public class Player : MovableEntity
     public bool canChangeMinionCount2 = true;
 
     public bool gotTorch = false;
-    public bool isBallMoving = false;
+    public bool canPlayerInteract = true;
 
     public int minionsCount = 0;
 
@@ -29,7 +29,7 @@ public class Player : MovableEntity
 
     override public void MoveEntity(Vector2 axis, bool rotateOnly)
     {
-        if (!isBallMoving)
+        if (canPlayerInteract)
         {
             if (!rotateOnly)
             {

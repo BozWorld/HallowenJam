@@ -24,4 +24,9 @@ public class Lever : LevelEntity
     {
         trigger.isTrigger = false;
     }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        trigger.isTrigger = false;
+    }
 }
