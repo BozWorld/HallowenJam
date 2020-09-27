@@ -19,7 +19,7 @@ public class Wizard : MovableEntity
 
     public override void Interact(Player player)
     {
-        if (player.canChangeMinionCount1 && player.canChangeMinionCount2)
+        if (player.canChangeMinionCount1 && player.canChangeMinionCount2 && !player.IsEntityMoving())
         {
             player.minionsCount -= 1;
             player.canChangeMinionCount1 = false;

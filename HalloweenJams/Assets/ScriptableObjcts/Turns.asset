@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf654a446d605734489dddd9789b5fde, type: 3}
   m_Name: Turns
   m_EditorClassIdentifier: 
+  turns: 7

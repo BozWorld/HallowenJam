@@ -19,24 +19,22 @@ public class Web : LevelEntity
 
     public override void Interact(Player player)
     {
-        if(!minion)
+        if (player.gotTorch)
         {
-            if (player.canChangeMinionCount1 && player.canChangeMinionCount2)
+            if (minion)
+                player.minionsCount += 1;
+            Destroy(gameObject);
+        }
+
+        if (!minion)
+        {
+            if (player.canChangeMinionCount1 && player.canChangeMinionCount2 && !player.IsEntityMoving())
             {
                 player.minionsCount -= 1;
                 startTurn = turns.turns;
                 minion = true;
                 player.canChangeMinionCount1 = false;
                 player.canChangeMinionCount2 = false;
-            }
-        }
-        else
-        {
-            if (player.gotTorch)
-            {
-                if (minion)
-                    player.minionsCount += 1;
-                Destroy(gameObject);
             }
         }
     }

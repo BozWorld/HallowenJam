@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bridge : LevelEntity
 {
@@ -15,6 +16,6 @@ public class Bridge : LevelEntity
     public override void Interact(Player player)
     {
         if (player.minionsCount > maxMinions)
-            Debug.Log("Game over");
+            SceneManager.LoadScene("Movement");
     }
 }

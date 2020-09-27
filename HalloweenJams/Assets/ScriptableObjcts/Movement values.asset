@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf76a403fd9501a4f9e2ce030e8817c7, type: 3}
   m_Name: Movement values
   m_EditorClassIdentifier: 
-  squareSize: 1
-  speed: 5
+  squareSize: 5
+  speed: 30
