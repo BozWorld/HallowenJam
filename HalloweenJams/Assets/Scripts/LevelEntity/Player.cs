@@ -22,6 +22,22 @@ public class Player : MovableEntity
                 isMoving = false;
                 canChangeMinionCount1 = true;
             }
+            if (direction.x == -1)
+            {
+                GetComponent<Animator>().SetBool("ReverseSide",true);
+            }
+            if (direction.x == 1)
+            {
+                GetComponent<Animator>().SetBool("GoSide",true);
+            }
+            if (direction.y == 1)
+            {
+                GetComponent<Animator>().SetBool("ReverseFront",true);
+            }
+            if (direction.y == -1)
+            {
+                GetComponent<Animator>().SetBool("GoFront",true);
+            }
         }
     }
 
@@ -36,5 +52,13 @@ public class Player : MovableEntity
             }
             direction = axis;
         }
+    }
+    
+    public void EndingFrontAnimation()
+    {
+        GetComponent<Animator>().SetBool("ReverseSide",true);
+        GetComponent<Animator>().SetBool("GoSide",true);
+        GetComponent<Animator>().SetBool("ReverseFront",true);
+        GetComponent<Animator>().SetBool("GoFront",true);
     }
 }
