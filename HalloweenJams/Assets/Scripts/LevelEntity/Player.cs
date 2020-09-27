@@ -23,8 +23,6 @@ public class Player : MovableEntity
                 canChangeMinionCount1 = true;
             }
         }
-
-        //Debug.Log(minionsCount);
     }
 
     override public void MoveEntity(Vector2 axis, bool rotateOnly)

@@ -19,7 +19,6 @@ public class Wizard : MovableEntity
 
     public override void Interact(Player player)
     {
-        //Debug.Log("fe,of");
         if (player.canChangeMinionCount1 && player.canChangeMinionCount2)
         {
             player.minionsCount -= 1;

@@ -69,7 +69,7 @@ public class PlayerInteractions : MonoBehaviour
 
         for (int i = 0;  i < 4; i ++)
         {
-            hit = Physics2D.Raycast(transform.position, directions[i]);
+            hit = Physics2D.Raycast(new Vector2(transform.position.x + directions[i].x * player.GetSquareSize(), transform.position.y + directions[i].y * player.GetSquareSize()), directions[i]);
             MovableEntity entity = null;
 
             if (hit.collider != null)
@@ -123,7 +123,7 @@ public class PlayerInteractions : MonoBehaviour
                 frontEntity.gameObject.GetComponent<LevelEntity>().Interact(player);
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && timer > 0.2f && player.canPlayerInteract)
+        if ((Input.GetKeyDown(KeyCode.R) && timer > 0.2f && player.canPlayerInteract) || player.minionsCount < 0)
         {
             turns.turns = 0;
             SceneManager.LoadScene("Movement");
