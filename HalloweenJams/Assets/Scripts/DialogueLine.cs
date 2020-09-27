@@ -10,5 +10,5 @@ public class DialogueLine
     [Multiline] public string text = "";
     public int nextLineIndex = 0;
     public List<int> ChoiceIdx = new List<int>();
-    public enum DialogueType { Dialogue = 0, Choice = 1, End = 2}
+    public enum DialogueType { Dialogue = 0, Choice = 1, GoodEnd = 2, BadEnd = 3}
 }

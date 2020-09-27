@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Minion : LevelEntity
 {
+    public GameObject[] minionScript;
+    public int MinionIdx;   
+    public string MinionName;
+    void Start()
+    {
+       
+    }
     public Minion()
     {
         canGoThrough = false;

@@ -1,21 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
+
 public class DialogueHandler : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
+    public TextMeshProUGUI nameZone;
+    public string Name;
+    public GameObject continueButton;
+    [SerializeField] private List<GameObject> _ButtonInteraction = null;
+    //public Player _Player;  
+    public float typingSpeed;
     [SerializeField] private List<DialogueLine> _dialogueList = new List<DialogueLine>();
     private int index;
     private int buttonidx;
-    public float typingSpeed;
-    public GameObject continueButton;
-    [SerializeField] private List<GameObject> _ButtonInteraction = null;
+    
+    
     private void Start() 
     {
-        textDisplay = GameObject.Find("TextBox").GetComponent<TextMeshProUGUI>();
         
-        StartCoroutine(Type());
     }
     void Update()
     {
@@ -37,21 +42,25 @@ public class DialogueHandler : MonoBehaviour
     //gère les différent type de text et la continuation du text
     public void ContinueText()
     {
-        continueButton.SetActive(false);
-        if (index < _dialogueList.Count -1 )
-        {
+        //continueButton.SetActive(false);
+            Debug.Log("ok");
             index = _dialogueList[index].nextLineIndex;
             textDisplay.text = "";
             StartCoroutine(Type());
-
-        }
          
         switch (_dialogueList[index].type)
         {
-            case DialogueLine.DialogueType.End:
+            case DialogueLine.DialogueType.GoodEnd:
                 textDisplay.text = "";
+                //_Player.canPlayerInteract = true;
+                //_Player.minionsCount +=1;
+                GameObject.Find("UiManager").SetActive(false);
                 break;
-
+            case DialogueLine.DialogueType.BadEnd:
+                textDisplay.text = "";
+                //_Player.canPlayerInteract = true;
+                GameObject.Find("UiManager").SetActive(false);
+                break;
             case DialogueLine.DialogueType.Choice:
                 int y = 0;
                 for (int i = 0; i < _ButtonInteraction.Count; i++)
@@ -79,6 +88,12 @@ public class DialogueHandler : MonoBehaviour
             index = ChoiceParameter; 
             textDisplay.text = "";
             StartCoroutine(Type());
+    }
+    private void OnEnable() {
+        //_Player.canPlayerInteract = false;
+        GameObject.Find("UiManager").SetActive(true);
+        StartCoroutine(Type());
+        nameZone.GetComponent<TextMeshProUGUI>().text = name;
     }
 
 }
