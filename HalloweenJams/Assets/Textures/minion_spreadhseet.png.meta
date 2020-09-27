@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: dad5abb28937bb14e9bcf65904a25bbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1859330319176502510
+    second: minion_spreadhseet_0
+  - first:
+      213: 7282313082950356232
+    second: minion_spreadhseet_1
+  - first:
+      213: 6892914122275619341
+    second: minion_spreadhseet_2
+  - first:
+      213: 752036280828746924
+    second: minion_spreadhseet_3
+  - first:
+      213: 1982858076422464157
+    second: minion_spreadhseet_4
+  - first:
+      213: 2038111349671837037
+    second: minion_spreadhseet_5
+  - first:
+      213: -7867943234699952640
+    second: minion_spreadhseet_6
+  - first:
+      213: 3537491230399780216
+    second: minion_spreadhseet_7
+  - first:
+      213: 8156632184421515617
+    second: minion_spreadhseet_8
+  - first:
+      213: 6345354134504923733
+    second: minion_spreadhseet_9
+  - first:
+      213: 5317332796100115071
+    second: minion_spreadhseet_10
+  - first:
+      213: 4644096472926514779
+    second: minion_spreadhseet_11
+  - first:
+      213: -8572848980729237373
+    second: minion_spreadhseet_12
+  - first:
+      213: -4314695241469341235
+    second: minion_spreadhseet_13
+  - first:
+      213: -7200126510834666550
+    second: minion_spreadhseet_14
+  - first:
+      213: 8060338233969609033
+    second: minion_spreadhseet_15
+  - first:
+      213: 7774306187385463769
+    second: minion_spreadhseet_16
+  - first:
+      213: -3559010584565698525
+    second: minion_spreadhseet_17
+  - first:
+      213: -2387943833670131988
+    second: minion_spreadhseet_18
+  - first:
+      213: 7486643103409899112
+    second: minion_spreadhseet_19
+  - first:
+      213: -1841584907588916750
+    second: minion_spreadhseet_20
+  - first:
+      213: -9052195978268423905
+    second: minion_spreadhseet_21
+  - first:
+      213: -4867849210298791715
+    second: minion_spreadhseet_22
+  - first:
+      213: 7592243304062878526
+    second: minion_spreadhseet_23
+  - first:
+      213: 567834357307769716
+    second: minion_spreadhseet_24
+  - first:
+      213: -3767047729531224343
+    second: minion_spreadhseet_25
+  - first:
+      213: 4090405781910904835
+    second: minion_spreadhseet_26
+  - first:
+      213: -5252073377695535514
+    second: minion_spreadhseet_27
+  - first:
+      213: 3381335556611564780
+    second: minion_spreadhseet_28
+  - first:
+      213: -7152982160427657903
+    second: minion_spreadhseet_29
+  - first:
+      213: 606129357527068715
+    second: minion_spreadhseet_30
+  - first:
+      213: 7634248412682035675
+    second: minion_spreadhseet_31
+  - first:
+      213: 2167346042560660218
+    second: minion_spreadhseet_32
+  - first:
+      213: 1777068265769085730
+    second: minion_spreadhseet_33
+  - first:
+      213: -2722401624932092756
+    second: minion_spreadhseet_34
+  - first:
+      213: -3571074743437151257
+    second: minion_spreadhseet_35
+  - first:
+      213: -1132454235920135737
+    second: minion_spreadhseet_36
+  - first:
+      213: 3457186446558001514
+    second: minion_spreadhseet_37
+  - first:
+      213: -2863074995038563953
+    second: minion_spreadhseet_38
+  - first:
+      213: 7503754525518897934
+    second: minion_spreadhseet_39
+  - first:
+      213: -1566488461493778478
+    second: minion_spreadhseet_40
+  - first:
+      213: 1391020230682927082
+    second: minion_spreadhseet_41
+  - first:
+      213: 1023032988553638934
+    second: minion_spreadhseet_42
+  - first:
+      213: -5565723069320872066
+    second: minion_spreadhseet_43
+  - first:
+      213: 8270116425419951468
+    second: minion_spreadhseet_44
+  - first:
+      213: -8943260187894721678
+    second: minion_spreadhseet_45
+  - first:
+      213: 3272544735279746176
+    second: minion_spreadhseet_46
+  - first:
+      213: -5191438678937639013
+    second: minion_spreadhseet_47
+  - first:
+      213: -3932219334399003134
+    second: minion_spreadhseet_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minion_spreadhseet_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1557
+        width: 567
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec01aaf21badc910800000000000000
+      internalID: 1859330319176502510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1557
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02038dbfdc88af50800000000000000
+      internalID: 6892914122275619341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_4
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1557
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92ec253ae6848b10800000000000000
+      internalID: 1982858076422464157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 844
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d36b329942e3eb60800000000000000
+      internalID: 7774306187385463769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_18
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 846
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceed1823cb15cded0800000000000000
+      internalID: -2387943833670131988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_20
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 846
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9217f98406176e0800000000000000
+      internalID: -1841584907588916750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 112
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b29c22c2a69a810800000000000000
+      internalID: 1777068265769085730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_35
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 114
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e33f03f07ef07ec0800000000000000
+      internalID: -3571074743437151257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_spreadhseet_37
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 112
+        width: 567
+        height: 657
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69726591c46aff20800000000000000
+      internalID: 3457186446558001514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
