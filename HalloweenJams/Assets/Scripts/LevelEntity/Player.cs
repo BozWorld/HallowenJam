@@ -24,7 +24,7 @@ public class Player : MovableEntity
             }
         }
 
-        //Debug.Log(minionsCount);
+        Debug.Log(minionsCount);
     }
 
     override public void MoveEntity(Vector2 axis, bool rotateOnly)
