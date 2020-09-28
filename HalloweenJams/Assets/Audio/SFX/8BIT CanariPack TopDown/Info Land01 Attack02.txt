@@ -1,0 +1,3 @@
+Land O1 : Pousse d'un rocher/poser un sbire sur un bouton/activer levier
+Jump 02 : retirer un sbire d'un bouton
+Attack 02 : Déruire/Bruler toile/ronce
