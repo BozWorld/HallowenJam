@@ -12,7 +12,7 @@ public class DialogueHandler : MonoBehaviour
     public int[] __choiceidx;
     public string characterName;
     public Image minionDescriptionUI;
-    public Sprite minionSprite;
+    public Sprite descriptionSprite;
     public Image imageVisage;
     public Sprite[] spriteVisage;
     public int _faceIdx;
@@ -113,11 +113,10 @@ public class DialogueHandler : MonoBehaviour
             
     }
     public void OnEnable() {
-        Debug.Log("ok");
         _Player.canPlayerInteract = false;
         _UiManager.SetActive(true);
         nameZone.GetComponent<TextMeshProUGUI>().text = characterName;
-        minionDescriptionUI.sprite = minionSprite;
+        minionDescriptionUI.sprite = descriptionSprite;
         characterImage.sprite = characterSprite;
         imageVisage.sprite = spriteVisage[0];
         StartCoroutine(Type());
@@ -126,7 +125,11 @@ public class DialogueHandler : MonoBehaviour
         textDisplay.text = "";
         index = 0;
         StopCoroutine(Type());
-
+        nameZone.GetComponent<TextMeshProUGUI>().text = "";
+        minionDescriptionUI.sprite = null;
+        characterImage.sprite = null;
+        imageVisage.sprite = null; 
+        _UiManager.SetActive(false);
     }
 
 }
