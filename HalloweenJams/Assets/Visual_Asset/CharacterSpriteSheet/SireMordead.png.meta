@@ -1,49 +1,19 @@
 fileFormatVersion: 2
-guid: 8f14231a71aede54a85e4bedb5509cb5
+guid: f764d5f76e369cb4d86ba9acadf35cd5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9213947296234618086
-    second: Bonnibel_0
+      213: -8074357359049679733
+    second: SireMordead_0
   - first:
-      213: 9014358121347176176
-    second: Bonnibel_1
+      213: 1105705307496752210
+    second: SireMordead_1
   - first:
-      213: -8160381628647896642
-    second: Bonnibel_2
+      213: 610242361705054550
+    second: SireMordead_2
   - first:
-      213: -515782843776526610
-    second: Bonnibel_3
-  - first:
-      213: -4902571377038987540
-    second: Bonnibel_4
-  - first:
-      213: -7665251949067859318
-    second: Bonnibel_5
-  - first:
-      213: -4494629304903178331
-    second: Bonnibel_6
-  - first:
-      213: -4747826424265474340
-    second: Bonnibel_7
-  - first:
-      213: -700627186883114852
-    second: Bonnibel_8
-  - first:
-      213: 1050799177848738055
-    second: Bonnibel_9
-  - first:
-      213: 8626234316433224516
-    second: Bonnibel_10
-  - first:
-      213: -2457817406175981238
-    second: Bonnibel_11
-  - first:
-      213: 1631462667591919645
-    second: Bonnibel_12
-  - first:
-      213: -5940065462781846547
-    second: Bonnibel_13
+      213: 670620832455260318
+    second: SireMordead_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -74,7 +44,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 2
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -108,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,85 +101,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bonnibel_0
+      name: SireMordead_0
       rect:
         serializedVersion: 2
-        x: 1682
-        y: 2278
-        width: 440
-        height: 492
+        x: 741
+        y: 593
+        width: 1077
+        height: 1860
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a13c3cc60cb712080800000000000000
-      internalID: -9213947296234618086
+      spriteID: b8c584003ce12ff80800000000000000
+      internalID: -8074357359049679733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bonnibel_3
+      name: SireMordead_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 161
-        width: 1550
-        height: 2166
+        x: 1856
+        y: 2343
+        width: 464
+        height: 616
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6957f7c3297d8f0800000000000000
-      internalID: -515782843776526610
+      spriteID: 254ab9f6e11485f00800000000000000
+      internalID: 1105705307496752210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bonnibel_4
+      name: SireMordead_2
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 1575
-        width: 437
-        height: 492
+        x: 1950
+        y: 1620
+        width: 470
+        height: 615
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceee799be4196fbb0800000000000000
-      internalID: -4902571377038987540
+      spriteID: 651435cd134087800800000000000000
+      internalID: 610242361705054550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bonnibel_9
+      name: SireMordead_3
       rect:
         serializedVersion: 2
-        x: 1695
-        y: 866
-        width: 437
-        height: 477
+        x: 2013
+        y: 861
+        width: 463
+        height: 653
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70152fde840359e00800000000000000
-      internalID: 1050799177848738055
+      spriteID: e98f87118168e4900800000000000000
+      internalID: 670620832455260318
       vertices: []
       indices: 
       edges: []
