@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   positions:
-  - {x: 22.6, y: 22.4}
-  - {x: 15, y: 0}
+  - {x: 22.5, y: 22.5}
+  - {x: 22.5, y: 72.5}
+  - {x: 72.5, y: 72.5}
+  - {x: 72.5, y: 122.5}
+  - {x: 122.5, y: 122.5}
+  - {x: 122.5, y: 72.5}
