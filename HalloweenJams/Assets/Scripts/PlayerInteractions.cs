@@ -126,7 +126,7 @@ public class PlayerInteractions : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.R) && timer > 0.2f && player.canPlayerInteract) || player.minionsCount < 0)
         {
             turns.turns = 0;
-            SceneManager.LoadScene("Movement");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         if (sameSquareEntity != null && sameSquareEntity.gameObject.GetComponent<LevelEntity>().InteractOnSameSquare() && player.canPlayerInteract)
