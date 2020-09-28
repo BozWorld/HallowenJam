@@ -21,12 +21,12 @@ public class Minion : LevelEntity
 
     public override void Interact(Player player)
     {
-        player.minionsCount += 1;
+        minionInformation.SetActive(true);
         Destroy(gameObject);
     }
     
     public void VnMode()
     {
-        minionInformation.SetActive(true);
+        
     }
 }

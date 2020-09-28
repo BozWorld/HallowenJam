@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4672933766949870168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4672933766949870174}
+  - component: {fileID: 4672933766949870175}
+  m_Layer: 0
+  m_Name: Marrowgan 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4672933766949870174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4672933766949870168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1239.2297, y: 199.30884, z: -2141.432}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4672933766949870175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4672933766949870168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa765b66fba9a540b34e263b8186896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  nameZone: {fileID: 0}
+  _UiManager: {fileID: 0}
+  __choiceidx: 0000000000000000
+  characterName: Marrowgan
+  minionDescriptionUI: {fileID: 0}
+  descriptionSprite: {fileID: 21300000, guid: a1f8d6d6ef228e0478a811e0f4b58be4, type: 3}
+  imageVisage: {fileID: 0}
+  spriteVisage:
+  - {fileID: 665681455360230768, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+  - {fileID: -5192228123993401314, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+  - {fileID: 3375518548168943602, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+  _faceIdx: 0
+  characterImage: {fileID: 0}
+  characterSprite: {fileID: 1921889386667921912, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+  continueButton: {fileID: 0}
+  _ButtonInteraction:
+  - {fileID: 0}
+  - {fileID: 0}
+  _Player: {fileID: 0}
+  typingSpeed: 0.05
+  _dialogueList:
+  - type: 1
+    text: 'Greetings Rivari, isn''t master Neckromancer with you? I have tons of
+      things to impress them with! If only my brother wasn''t so dumb, he would realize
+      how godly the Neckromancer is. '
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 0100000002000000
+  - type: 0
+    text: I kinda let Ostra go wild.
+    faceIdx: 0
+    nextLineIndex: 3
+    ChoiceIdx: 
+  - type: 0
+    text: ' I lost meowster, help me.'
+    faceIdx: 0
+    nextLineIndex: 4
+    ChoiceIdx: 
+  - type: 2
+    text: You did what? That's no good, come Riva, we've got to stop his stupid ass!
+      And... maybe master will be proud of me. Yeah! they'll definitely be!
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 3
+    text: Rivari, you are such a disappointment and disgrace to master, you don't
+      deserve them, repent yourself! Prove that your worth! Alone!
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 

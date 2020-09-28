@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minionScript: {fileID: 6139113767185075822, guid: e0218fff9bca75a41be511472a45660a, type: 3}
-  MinionIdx: 0
+  minionIdx: 0
   minionDescription: {fileID: 0}
-  MinionName: Al Catane
+  minionName: 
+  minionInformation: {fileID: 2687099152131526668, guid: 037bea6b15155ac43a938545c33054a2, type: 3}

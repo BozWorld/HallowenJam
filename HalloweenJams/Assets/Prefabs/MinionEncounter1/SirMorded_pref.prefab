@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6903255962867307380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6903255962867307378}
+  - component: {fileID: 6903255962867307379}
+  m_Layer: 0
+  m_Name: SirMorded
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6903255962867307378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903255962867307380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1239.2297, y: 199.30884, z: -2141.432}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6903255962867307379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6903255962867307380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa765b66fba9a540b34e263b8186896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  nameZone: {fileID: 0}
+  _UiManager: {fileID: 0}
+  __choiceidx: 0000000000000000
+  characterName: SirMorded
+  minionDescriptionUI: {fileID: 0}
+  descriptionSprite: {fileID: 21300000, guid: 640427586b0e0bb47b95e04296118572, type: 3}
+  imageVisage: {fileID: 0}
+  spriteVisage:
+  - {fileID: 1105705307496752210, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+  - {fileID: 610242361705054550, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+  - {fileID: 670620832455260318, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+  _faceIdx: 0
+  characterImage: {fileID: 0}
+  characterSprite: {fileID: -8074357359049679733, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+  continueButton: {fileID: 0}
+  _ButtonInteraction:
+  - {fileID: 0}
+  - {fileID: 0}
+  _Player: {fileID: 0}
+  typingSpeed: 0.05
+  _dialogueList:
+  - type: 1
+    text: "Greetings, fellow vassal. Have you seen our liege? I\u2019ve been looking
+      around but can\u2019t seem to find them. "
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 0100000002000000
+  - type: 0
+    text: 'I think our liege might be further ahead. '
+    faceIdx: 0
+    nextLineIndex: 3
+    ChoiceIdx: 
+  - type: 0
+    text: "I\u2019m also looking for the boss. "
+    faceIdx: 0
+    nextLineIndex: 4
+    ChoiceIdx: 
+  - type: 2
+    text: 'I see! Then, I shall follow you and give you my assistance in finding
+      them. What are we waiting for? Godspeed! '
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 3
+    text: 'B...Boss?! What an unbefitting title for our lordship the Neckromancer!
+      I shall restore their honor by slaying you! En garde! '
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 

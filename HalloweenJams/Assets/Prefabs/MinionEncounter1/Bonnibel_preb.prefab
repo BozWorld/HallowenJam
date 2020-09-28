@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2370635175080384704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2370635175080384710}
+  - component: {fileID: 2370635175080384711}
+  m_Layer: 0
+  m_Name: Bonnibel 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2370635175080384710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370635175080384704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1239.2297, y: 199.30884, z: -2141.432}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2370635175080384711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370635175080384704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa765b66fba9a540b34e263b8186896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  nameZone: {fileID: 0}
+  _UiManager: {fileID: 0}
+  __choiceidx: 0000000000000000
+  characterName: Bonnibel
+  minionDescriptionUI: {fileID: 0}
+  descriptionSprite: {fileID: 21300000, guid: ac36f247b513bbf4db7f891f0adf86d2, type: 3}
+  imageVisage: {fileID: 0}
+  spriteVisage:
+  - {fileID: -9213947296234618086, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  - {fileID: -4902571377038987540, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  - {fileID: 1050799177848738055, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  _faceIdx: 0
+  characterImage: {fileID: 0}
+  characterSprite: {fileID: -515782843776526610, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  continueButton: {fileID: 0}
+  _ButtonInteraction:
+  - {fileID: 0}
+  - {fileID: 0}
+  _Player: {fileID: 0}
+  typingSpeed: 0.05
+  _dialogueList:
+  - type: 1
+    text: 'Ooooh, a cute kitten, are you lost? Do you need help? Or a big huggy-cuddly! '
+    faceIdx: 0
+    nextLineIndex: 1
+    ChoiceIdx: 0100000002000000
+  - type: 0
+    text: Huggy-cuddly sounds nice but I lost meowster
+    faceIdx: 0
+    nextLineIndex: 3
+    ChoiceIdx: 
+  - type: 0
+    text: Step aside, I do not have time for you.
+    faceIdx: 0
+    nextLineIndex: 4
+    ChoiceIdx: 
+  - type: 2
+    text: You lost meowster? Such a tragedy, let us quickly find them, hop hop! We
+      don't have time to lose to bring back such a cuty like you to their home!
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 3
+    text: How rude, you are supposed to respect your elders, die.
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
