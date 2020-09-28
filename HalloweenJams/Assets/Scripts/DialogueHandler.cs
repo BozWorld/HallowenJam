@@ -33,7 +33,7 @@ public class DialogueHandler : MonoBehaviour
     void Update()
     {
         
-        if (textDisplay.text == _dialogueList[index].text)
+        if (textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.Dialogue || textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.GoodEnd ||textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.BadEnd )
         {
             continueButton.SetActive(true);
         }
@@ -109,11 +109,12 @@ public class DialogueHandler : MonoBehaviour
             {
                 _ButtonInteraction[i].SetActive(false);
             }
+            continueButton.SetActive(false);
         }
             
     }
     public void OnEnable() {
-        if (_dialogueList[index].type == DialogueLine.DialogueType.Choice)
+        if (_dialogueList[index].type == DialogueLine.DialogueType.Choice )
         {
             for (int i = 0; i < _ButtonInteraction.Count; i++)
             {
@@ -131,6 +132,10 @@ public class DialogueHandler : MonoBehaviour
         StartCoroutine(Type());
     }
     private void OnDisable() {
+        for (int i = 0; i < _ButtonInteraction.Count ; i++)
+            {
+                _ButtonInteraction[i].SetActive(false);
+            }    
         textDisplay.text = "";
         index = 0;
         StopCoroutine(Type());

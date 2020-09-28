@@ -139,6 +139,343 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa765b66fba9a540b34e263b8186896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &143956615
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 561.57275
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 677.0534
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -100.719315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624086, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_Name
+      value: MinionInformation_SecondEncounter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
 --- !u!1 &225731999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1603459112280883517, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
@@ -255,6 +592,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 354393467}
@@ -278,6 +619,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
       objectReference: {fileID: 2078208221}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: DialogueHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 1274426816}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: ChoiceMaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 739062899, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_text
       value: 
@@ -359,6 +728,10 @@ PrefabInstance:
       value: -364
       objectReference: {fileID: 0}
     - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 354393467}
@@ -382,6 +755,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
       objectReference: {fileID: 2078208221}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: DialogueHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 1274426816}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: ContinueText
+      objectReference: {fileID: 0}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1722299993, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -395,6 +792,10 @@ PrefabInstance:
       value: 738.81
       objectReference: {fileID: 0}
     - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 354393467}
@@ -418,6 +819,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
       objectReference: {fileID: 2078208221}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: DialogueHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 1274426816}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: ChoiceMaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1603459112280883517, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_Name
       value: UiManager
@@ -697,10 +1122,6 @@ PrefabInstance:
       propertyPath: _Player
       value: 
       objectReference: {fileID: 947014980}
-    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
-      propertyPath: _dialogueList.Array.data[0].nextLineIndex
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
       propertyPath: textDisplay
       value: 
@@ -911,6 +1332,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+--- !u!114 &1274426816 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+  m_PrefabInstance: {fileID: 1195581004}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa765b66fba9a540b34e263b8186896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1316537688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1054,6 +1486,343 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1476281807, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
   m_PrefabInstance: {fileID: 772444691}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1677065712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756134548677, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756378051499, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756388558561, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756571846892, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944756975420536, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 4075944757415825871, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 772444697}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 772444696}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 225731999}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 1317139277}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 772444692}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 772444693}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 1476281807}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 1722299993}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 45324056}
+    - target: {fileID: 6139113766401111496, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 947014980}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 561.57275
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 677.0534
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -100.719315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624081, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624086, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_Name
+      value: MinionInformation (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
 --- !u!1 &1722299993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1722299993, guid: 4123536f4835fea4684e671fe0720c90, type: 3}

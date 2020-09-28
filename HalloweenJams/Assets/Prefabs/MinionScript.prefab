@@ -407,7 +407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].type
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].text
@@ -477,6 +477,14 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[4].ChoiceIdx.Array.data[1]
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: m_Name
@@ -748,7 +756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _dialogueList.Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: __choiceidx.Array.size
@@ -816,7 +824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _dialogueList.Array.data[0].nextLineIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
@@ -866,6 +874,18 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _dialogueList.Array.data[5].text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[3].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: m_Name
@@ -1045,7 +1065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: _dialogueList.Array.data[3].nextLineIndex
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: _dialogueList.Array.data[4].type
@@ -1306,7 +1326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[1].type
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[0]
@@ -1318,7 +1338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[2].type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[2].nextLineIndex
@@ -1335,6 +1355,10 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[3].nextLineIndex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: m_Name
