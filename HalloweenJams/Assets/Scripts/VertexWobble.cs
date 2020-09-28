@@ -6,7 +6,7 @@ using TMPro;
 public class VertexWobble : MonoBehaviour
 {
     TMP_Text textMesh;
-
+    
     Mesh mesh;
 
     Vector3[] vertices;

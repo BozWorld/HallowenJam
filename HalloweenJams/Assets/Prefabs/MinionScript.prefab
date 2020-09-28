@@ -89,7 +89,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _ButtonInteraction.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[3].ChoiceIdx.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: continueButton
@@ -110,6 +126,58 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _ButtonInteraction.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: efgg
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: efgg
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[3].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: efgg
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[3].ChoiceIdx.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[3].ChoiceIdx.Array.data[1]
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: m_Name
@@ -179,7 +247,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
       propertyPath: _ButtonInteraction.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
       propertyPath: continueButton
@@ -269,7 +341,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _ButtonInteraction.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: continueButton
@@ -359,7 +435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: _ButtonInteraction.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: continueButton
@@ -449,7 +529,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _ButtonInteraction.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: spriteVisage.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: continueButton
@@ -470,6 +566,104 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _ButtonInteraction.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: characterName
+      value: Al Catane
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: minionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c8aad39309db0d74c86b19ebb0e19658, type: 3}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: 4913239254770855252, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: 9018114804209248345, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: 1435429873042530600, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: -8196837470876956956, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: Je m'appelle moeva
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: "J'aime les jeux vid\xE9o"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].faceIdx
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: Et toi Gros?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].faceIdx
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: 'bof
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[4].nextLineIndex
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[5].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[5].text
+      value: Oui De ouf
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[6].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[6].text
+      value: t'es chelou toi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[7].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[7].text
+      value: bah ntm alors
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[8].text
+      value: "bof \xE7a "
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: m_Name
@@ -539,7 +733,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
       propertyPath: _ButtonInteraction.Array.size
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
       propertyPath: continueButton

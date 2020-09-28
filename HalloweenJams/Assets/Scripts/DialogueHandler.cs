@@ -8,7 +8,16 @@ public class DialogueHandler : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
     public TextMeshProUGUI nameZone;
-    public string Name;
+    public GameObject _UiManager;
+    public int[] __choiceidx;
+    public string characterName;
+    public Image minionDescriptionUI;
+    public Sprite minionSprite;
+    public Image imageVisage;
+    public Sprite[] spriteVisage;
+    public int _faceIdx;
+    public Image characterImage;
+    public Sprite characterSprite;
     public GameObject continueButton;
     [SerializeField] private List<GameObject> _ButtonInteraction = null;
     public Player _Player;  
@@ -24,9 +33,16 @@ public class DialogueHandler : MonoBehaviour
     void Update()
     {
         
-        if (textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.Dialogue)
+        if (textDisplay.text == _dialogueList[index].text)
         {
             continueButton.SetActive(true);
+        }
+        if (textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.Choice)
+        {
+            for (int i = 0; i < _ButtonInteraction.Count; i++) 
+            {
+                _ButtonInteraction[i].SetActive(true);
+            }
         }
     }
 
@@ -44,10 +60,10 @@ public class DialogueHandler : MonoBehaviour
         if (this.gameObject.activeSelf)
         {
             continueButton.SetActive(false);
-        if (index < _dialogueList.Count -1 )
+        if (index < _dialogueList.Count -1 && _dialogueList[index].type == DialogueLine.DialogueType.Dialogue || index < _dialogueList.Count -1 && _dialogueList[index].type == DialogueLine.DialogueType.Dialogue )
         {
-            Debug.Log(index);
             index = _dialogueList[index].nextLineIndex;
+            imageVisage.sprite = spriteVisage[_dialogueList[index].faceIdx];
             textDisplay.text = "";
             StartCoroutine(Type());
         }
@@ -57,20 +73,24 @@ public class DialogueHandler : MonoBehaviour
                 textDisplay.text = "";
                 _Player.canPlayerInteract = true;
                 _Player.minionsCount +=1;
-                GameObject.Find("UiManager").SetActive(false);
+                continueButton.SetActive(false);
+                this.gameObject.SetActive(false);
+                _UiManager.SetActive(false);
                 break;
             case DialogueLine.DialogueType.BadEnd:
                 textDisplay.text = "";
                 _Player.canPlayerInteract = true;
-                GameObject.Find("UiManager").SetActive(false);
+                _Player.minionsCount -=1;
+                continueButton.SetActive(false);
+                this.gameObject.SetActive(false);
+                _UiManager.SetActive(false);
                 break;
             case DialogueLine.DialogueType.Choice:
                 for (int i = 0; i < _ButtonInteraction.Count; i++)
                 {
-                _ButtonInteraction[i] = GameObject.Find("UiManager").GetComponent<UiManager>().ChoiceButton[i];   
-                int __choiceIdx = _dialogueList[index].ChoiceIdx[i];
-                _ButtonInteraction[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _dialogueList[__choiceIdx].text;
-                _ButtonInteraction[i].SetActive(true);
+                _ButtonInteraction[i] = _UiManager.GetComponent<UiManager>().ChoiceButton[i];   
+                __choiceidx[i] = _dialogueList[index].ChoiceIdx[i];
+                _ButtonInteraction[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _dialogueList[__choiceidx[i]].text;
                 }
                 break;
             default:
@@ -79,20 +99,34 @@ public class DialogueHandler : MonoBehaviour
         }
         
     }
-    public void ChoiceMaker(int ChoiceParameter = 1)
+    public void ChoiceMaker(int ChoiceParameter)
     {
         if (this.gameObject.activeSelf){
-            index = ChoiceParameter; 
+            index = _dialogueList[__choiceidx[ChoiceParameter]].nextLineIndex;
             textDisplay.text = "";
             StartCoroutine(Type());
+            for (int i = 0; i < _ButtonInteraction.Count ; i++)
+            {
+                _ButtonInteraction[i].SetActive(false);
+            }
         }
             
     }
     public void OnEnable() {
+        Debug.Log("ok");
         _Player.canPlayerInteract = false;
-        GameObject.Find("UiManager").SetActive(true);
+        _UiManager.SetActive(true);
+        nameZone.GetComponent<TextMeshProUGUI>().text = characterName;
+        minionDescriptionUI.sprite = minionSprite;
+        characterImage.sprite = characterSprite;
+        imageVisage.sprite = spriteVisage[0];
         StartCoroutine(Type());
-        nameZone.GetComponent<TextMeshProUGUI>().text = name;
+    }
+    private void OnDisable() {
+        textDisplay.text = "";
+        index = 0;
+        StopCoroutine(Type());
+
     }
 
 }
