@@ -542,11 +542,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1592509145474188198, guid: 601989cc44136b94d8be342c7e71efc0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1592509145474188198, guid: 601989cc44136b94d8be342c7e71efc0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1592509145474188198, guid: 601989cc44136b94d8be342c7e71efc0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2102,6 +2102,10 @@ PrefabInstance:
     - target: {fileID: 3793819349995238689, guid: adde3a473c5753240a13028a45752f56, type: 3}
       propertyPath: m_Name
       value: Web (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045714400124805946, guid: adde3a473c5753240a13028a45752f56, type: 3}
+      propertyPath: maxTurns
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adde3a473c5753240a13028a45752f56, type: 3}
@@ -9193,6 +9197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40
@@ -10735,6 +10743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Web (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7045714400124805946, guid: adde3a473c5753240a13028a45752f56, type: 3}
+      propertyPath: maxTurns
+      value: 32
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adde3a473c5753240a13028a45752f56, type: 3}
 --- !u!4 &679395166 stripped
@@ -11066,6 +11078,7 @@ Transform:
   - {fileID: 585746245}
   - {fileID: 30297771}
   - {fileID: 1476605802}
+  - {fileID: 1968212768}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11716,6 +11729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -12269,6 +12286,10 @@ PrefabInstance:
     - target: {fileID: 4844626007465230461, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_Name
       value: Bridge (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631733395069675805, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
+      propertyPath: maxMinions
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8021267779622541783, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19513,6 +19534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bridge (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5631733395069675805, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
+      propertyPath: maxMinions
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8021267779622541783, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -20424,6 +20449,10 @@ PrefabInstance:
     - target: {fileID: 3268383488139031833, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_Name
       value: Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24876,6 +24905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Web (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7045714400124805946, guid: adde3a473c5753240a13028a45752f56, type: 3}
+      propertyPath: maxTurns
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adde3a473c5753240a13028a45752f56, type: 3}
 --- !u!4 &1465443003 stripped
@@ -25751,6 +25784,10 @@ PrefabInstance:
     - target: {fileID: 4844626007465230461, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_Name
       value: Bridge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631733395069675805, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
+      propertyPath: maxMinions
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8021267779622541783, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27616,6 +27653,10 @@ PrefabInstance:
     - target: {fileID: 3268383488139031833, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_Name
       value: Button (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29765,6 +29806,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156128271}
     m_Modifications:
+    - target: {fileID: 3252244768428115951, guid: 8d0f14fca55093845a57df092657459c, type: 3}
+      propertyPath: minionsNeeded
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7418771259526728244, guid: 8d0f14fca55093845a57df092657459c, type: 3}
       propertyPath: m_Name
       value: Lever (1)
@@ -30158,6 +30203,10 @@ PrefabInstance:
     - target: {fileID: 3268383488139031833, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_Name
       value: Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32228,6 +32277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45
@@ -32788,6 +32841,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1968212767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 689456044}
+    m_Modifications:
+    - target: {fileID: 3268383488139031833, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_Name
+      value: Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031834, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: minionsNeeded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_RootOrder
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+--- !u!4 &1968212768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
+  m_PrefabInstance: {fileID: 1968212767}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1970495662
 GameObject:
   m_ObjectHideFlags: 0
@@ -33885,6 +34004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Web (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7045714400124805946, guid: adde3a473c5753240a13028a45752f56, type: 3}
+      propertyPath: maxTurns
+      value: 32
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adde3a473c5753240a13028a45752f56, type: 3}
 --- !u!4 &2001315872 stripped
@@ -34842,6 +34965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Web (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7045714400124805946, guid: adde3a473c5753240a13028a45752f56, type: 3}
+      propertyPath: maxTurns
+      value: 42
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adde3a473c5753240a13028a45752f56, type: 3}
 --- !u!4 &2071223832 stripped
@@ -34859,6 +34986,10 @@ PrefabInstance:
     - target: {fileID: 4844626007465230461, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_Name
       value: Bridge (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631733395069675805, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
+      propertyPath: maxMinions
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8021267779622541783, guid: 9175e39ff8329b746b7bac1d828ce376, type: 3}
       propertyPath: m_LocalPosition.x
