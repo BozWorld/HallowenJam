@@ -113,6 +113,15 @@ public class DialogueHandler : MonoBehaviour
             
     }
     public void OnEnable() {
+        if (_dialogueList[index].type == DialogueLine.DialogueType.Choice)
+        {
+            for (int i = 0; i < _ButtonInteraction.Count; i++)
+            {
+            _ButtonInteraction[i] = _UiManager.GetComponent<UiManager>().ChoiceButton[i];   
+            __choiceidx[i] = _dialogueList[index].ChoiceIdx[i];
+             _ButtonInteraction[i].gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _dialogueList[__choiceidx[i]].text;
+            }
+        }
         _Player.canPlayerInteract = false;
         _UiManager.SetActive(true);
         nameZone.GetComponent<TextMeshProUGUI>().text = characterName;
@@ -130,6 +139,7 @@ public class DialogueHandler : MonoBehaviour
         characterImage.sprite = null;
         imageVisage.sprite = null; 
         _UiManager.SetActive(false);
+        continueButton.SetActive(false);
     }
 
 }

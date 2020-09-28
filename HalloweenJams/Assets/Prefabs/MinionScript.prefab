@@ -33,9 +33,238 @@ Transform:
   - {fileID: 4075944757415825870}
   - {fileID: 4075944756378051498}
   - {fileID: 4075944756134548676}
+  - {fileID: 6139113766401111497}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1389018017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7899922158397624081}
+    m_Modifications:
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1239.2297
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 199.30884
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2141.432
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _ButtonInteraction.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: continueButton
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: textDisplay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _ButtonInteraction.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: nameZone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _UiManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: characterName
+      value: Tibiatus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: minionDescriptionUI
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c8aad39309db0d74c86b19ebb0e19658, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: imageVisage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: 4449279613812127786, guid: bd81574be4b3885418d885cc00e3714f, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: 1350999404337188947, guid: bd81574be4b3885418d885cc00e3714f, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: 7524350838868487659, guid: bd81574be4b3885418d885cc00e3714f, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 3226689559681696087, guid: bd81574be4b3885418d885cc00e3714f, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _Player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: 'A weak feline, an easy toy to play with, not going to be lots of fun. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: "I told Ostradamus we're conquering the world. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: You're the weak toy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: And he bought it? Credits where credits are dues, you're an interesting
+        one. I might want to stick around to see that fool in action!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: 'And arrogant, like these two fools. I like to play with peoples of
+        your kind but you''re not worth my time. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[5].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[5].text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[3].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075822, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_Name
+      value: Tibiatus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075822, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+--- !u!4 &6139113766401111497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6139113767185075816, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+  m_PrefabInstance: {fileID: 1389018017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7899922157036374545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93,7 +322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.size
@@ -105,6 +334,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: spriteVisage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[4].ChoiceIdx.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
@@ -129,7 +374,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[0].text
-      value: 
+      value: 'HELLO CAT, HOW ARE YOU DOING TODAY? STRONG? CONFIDENT? IF YOU FEEL
+        DOWN, WE''RE GONNA DO THAT A FIX! COME AND CRY OUT LOUD YOUR PRIDE WITH ME! '
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[0].nextLineIndex
@@ -137,11 +383,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[1].type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[1].text
-      value: efgg
+      value: I LOST MY SUPER STRONG MEOWSTER!
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[0]
@@ -153,19 +399,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[2].text
-      value: efgg
+      value: You're going to be an annoying one.
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[2].nextLineIndex
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].text
-      value: efgg
+      value: SUPER STRONG YOU SHOUT? THAT SOUNDS LIKE A HONORABLE PERSON, LET'S FIND
+        YOUR MASTER MY YELLIN' BUD!
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].nextLineIndex
@@ -177,6 +424,58 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
       propertyPath: _dialogueList.Array.data[3].ChoiceIdx.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: characterName
+      value: Bjorn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 377f325c5f1ed24408d025ef330fc824, type: 3}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: 4913239254770855252, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: 9018114804209248345, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: 1435429873042530600, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: -8196837470876956956, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: 'Wow, way to ruin the mood buddy. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[4].ChoiceIdx.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
+      propertyPath: _dialogueList.Array.data[4].ChoiceIdx.Array.data[1]
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: dcb99d23b9381464e8ccdbdc8bb29086, type: 3}
@@ -251,6 +550,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
       propertyPath: _dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: spriteVisage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
@@ -272,6 +587,94 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
       propertyPath: _ButtonInteraction.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: characterName
+      value: Marrowgan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a1f8d6d6ef228e0478a811e0f4b58be4, type: 3}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: 665681455360230768, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: -5192228123993401314, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: 3375518548168943602, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 1921889386667921912, guid: eb84375b24a22dc45bf4f5f1d900db50, type: 3}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: 'Greetings Rivari, isn''t master Neckromancer with you? I have tons
+        of things to impress them with! If only my brother wasn''t so dumb, he would
+        realize how godly the Neckromancer is. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: I kinda let Ostra go wild.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: ' I lost meowster, help me.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[3].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: You did what? That's no good, come Riva, we've got to stop his stupid
+        ass! And... maybe master will be proud of me. Yeah! they'll definitely be!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: Rivari, you are such a disappointment and disgrace to master, you don't
+        deserve them, repent yourself! Prove that your worth! Alone!
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: 3cc55429af6db44418257f6f6e0d73b9, type: 3}
       propertyPath: m_Name
@@ -345,6 +748,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _dialogueList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: spriteVisage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
@@ -365,6 +784,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
       propertyPath: _ButtonInteraction.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: characterName
+      value: Bonnibel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ac36f247b513bbf4db7f891f0adf86d2, type: 3}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: -9213947296234618086, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: -4902571377038987540, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: 1050799177848738055, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: -515782843776526610, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: 'Ooooh, a cute kitten, are you lost? Do you need help? Or a big huggy-cuddly! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: Huggy-cuddly sounds nice but I lost meowster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: Step aside, I do not have time for you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: You lost meowster? Such a tragedy, let us quickly find them, hop hop!
+        We don't have time to lose to bring back such a cuty like you to their home!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: How rude, you are supposed to respect your elders, die.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[5].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
+      propertyPath: _dialogueList.Array.data[5].text
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: bd43933f4fb95584abbf269cd79a3ea8, type: 3}
@@ -439,6 +939,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: _dialogueList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
@@ -460,6 +976,99 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: _ButtonInteraction.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: characterName
+      value: Ostradamus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c8aad39309db0d74c86b19ebb0e19658, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: 7678082943762585356, guid: a2cb991cb2efcef419be6afec8e6ed5d, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: -3755391150810917283, guid: a2cb991cb2efcef419be6afec8e6ed5d, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: -6924566531043196393, guid: a2cb991cb2efcef419be6afec8e6ed5d, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: -4885598213242951946, guid: a2cb991cb2efcef419be6afec8e6ed5d, type: 3}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: Well, well, well, isn't it the Neckromancer's kitty?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: Have you finally left that no good master of yours? Searching for one
+        that is not a fraud?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: I know how to take their powers! Come neow master, we shall rule the
+        world!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: I lost them, help me and you might learn a thing or two.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: 'AH FINALLY! My time to shine! Someone who knows my worth! The world
+        will learn to bow down to their true God! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[4].nextLineIndex
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[5].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
+      propertyPath: _dialogueList.Array.data[5].text
+      value: FOOL! Who do you think I am? I know each and every weaknesses of that
+        vile creature and soon enough I will destroy them, now leave me alone, you're
+        just a pain in the neck.
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: c39e44ddcde975c4e89782ab43fe4fdf, type: 3}
       propertyPath: m_Name
@@ -541,10 +1150,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.size
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
@@ -569,7 +1186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: characterName
-      value: Al Catane
+      value: Al Cabone
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: minionSprite
@@ -578,30 +1195,31 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: spriteVisage.Array.data[0]
       value: 
-      objectReference: {fileID: 4913239254770855252, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+      objectReference: {fileID: -2770937405160000333, guid: 9b9c55eb9774c114d990479fe9831fae, type: 3}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: spriteVisage.Array.data[1]
       value: 
-      objectReference: {fileID: 9018114804209248345, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+      objectReference: {fileID: -7277380611808718255, guid: 9b9c55eb9774c114d990479fe9831fae, type: 3}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: spriteVisage.Array.data[2]
       value: 
-      objectReference: {fileID: 1435429873042530600, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+      objectReference: {fileID: -7174514758967011760, guid: 9b9c55eb9774c114d990479fe9831fae, type: 3}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: characterSprite
       value: 
-      objectReference: {fileID: -8196837470876956956, guid: 9b3aa5166c921c8469eb08e8fb0b0708, type: 3}
+      objectReference: {fileID: 2015136740591517599, guid: 9b9c55eb9774c114d990479fe9831fae, type: 3}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[0].text
-      value: Je m'appelle moeva
+      value: "Hello there. I didn\u2019t think I'd see a sorcerer around here. What
+        are you doing this deep in the forest? "
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[0].nextLineIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[1].text
-      value: "J'aime les jeux vid\xE9o"
+      value: 'None of your business. Now begone! '
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[1].faceIdx
@@ -609,11 +1227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[1].nextLineIndex
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[2].text
-      value: Et toi Gros?
+      value: "I\u2019m looking for my meowster the Neckromancer. "
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[2].faceIdx
@@ -629,9 +1247,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[4].text
-      value: 'bof
-
-'
+      value: 'AH FINALLY! My time to shine! Someone who knows my worth! The world
+        will learn to bow down to their true God! '
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[4].nextLineIndex
@@ -643,7 +1260,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[5].text
-      value: Oui De ouf
+      value: "Tsavar\u2019rel is here? And they\u2019re still calling themselves
+        the Neckromancer? Ahaha, that\u2019s so funny! I might stick around and see
+        what they\u2019re up to... "
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: _dialogueList.Array.data[6].type
@@ -665,9 +1284,61 @@ PrefabInstance:
       propertyPath: _dialogueList.Array.data[8].text
       value: "bof \xE7a "
       objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: __choiceidx.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ab531c03c59bd034da0d4fe8d1334702, type: 3}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[1].ChoiceIdx.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[3].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: 'Just a warning... You do not want to anger me. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: e0218fff9bca75a41be511472a45660a, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: m_Name
-      value: Al Catane
+      value: Al Cabone
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: e0218fff9bca75a41be511472a45660a, type: 3}
       propertyPath: m_IsActive
@@ -737,6 +1408,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
       propertyPath: _dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: __choiceidx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: spriteVisage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[2].ChoiceIdx.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
@@ -758,6 +1445,93 @@ PrefabInstance:
     - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
       propertyPath: _ButtonInteraction.Array.data[2]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: characterName
+      value: SirMorded
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: descriptionSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 640427586b0e0bb47b95e04296118572, type: 3}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: spriteVisage.Array.data[0]
+      value: 
+      objectReference: {fileID: 1105705307496752210, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: spriteVisage.Array.data[1]
+      value: 
+      objectReference: {fileID: 610242361705054550, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: spriteVisage.Array.data[2]
+      value: 
+      objectReference: {fileID: 670620832455260318, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: -8074357359049679733, guid: f764d5f76e369cb4d86ba9acadf35cd5, type: 3}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: "Greetings, fellow vassal. Have you seen our liege? I\u2019ve been looking
+        around but can\u2019t seem to find them. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: 'I think our liege might be further ahead. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[2].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: "I\u2019m also looking for the boss. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[3].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: 'I see! Then, I shall follow you and give you my assistance in finding
+        them. What are we waiting for? Godspeed! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[3].nextLineIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[4].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139113767185075817, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: 'B...Boss?! What an unbefitting title for our lordship the Neckromancer!
+        I shall restore their honor by slaying you! En garde! '
       objectReference: {fileID: 0}
     - target: {fileID: 6139113767185075822, guid: d0e53922171f45c44b14af7b527a39ca, type: 3}
       propertyPath: m_Name
