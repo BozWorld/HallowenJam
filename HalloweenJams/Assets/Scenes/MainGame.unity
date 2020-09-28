@@ -200,7 +200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031833, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3268383488139031909, guid: c2d7ded4f57bad04e83e2b937ed1cd50, type: 3}
       propertyPath: m_LocalPosition.x
@@ -461,7 +461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1603459112280883517, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1603459112280883518, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1237,6 +1237,10 @@ PrefabInstance:
     - target: {fileID: 7899922158397624086, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
       propertyPath: m_Name
       value: MinionInformation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899922158397624086, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225fb25a913cdad43ab40fdc355aecdc, type: 3}
