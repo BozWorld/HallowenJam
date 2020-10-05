@@ -1301,7 +1301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1084279880908797188, guid: fc04b64178614d547838a2586a7faa2a, type: 3}
       propertyPath: m_Name
-      value: MinionInformation (2)
+      value: MinionInformation _lastencounter
       objectReference: {fileID: 0}
     - target: {fileID: 4007228297730625498, guid: fc04b64178614d547838a2586a7faa2a, type: 3}
       propertyPath: textDisplay

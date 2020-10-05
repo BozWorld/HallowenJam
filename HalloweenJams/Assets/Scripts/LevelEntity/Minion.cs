@@ -5,9 +5,6 @@ using UnityEngine.UI;
 
 public class Minion : LevelEntity
 {
-    public GameObject minionScript;
-    public int minionIdx;  
-    public Image minionDescription;
     public string minionName;
     public GameObject minionInformation;
     void Start()
