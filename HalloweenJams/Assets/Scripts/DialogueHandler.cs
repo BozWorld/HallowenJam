@@ -39,6 +39,7 @@ public class DialogueHandler : MonoBehaviour
         }
         if (textDisplay.text == _dialogueList[index].text && _dialogueList[index].type == DialogueLine.DialogueType.Choice)
         {
+            continueButton.SetActive(false);
             for (int i = 0; i < _ButtonInteraction.Count; i++) 
             {
                 _ButtonInteraction[i].SetActive(true);
