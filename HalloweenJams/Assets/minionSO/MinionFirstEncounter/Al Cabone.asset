@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69933a3e51b1ef4488ae190d56f18bc7, type: 3}
-  m_Name: Al Cobone
+  m_Name: Al Cabone
   m_EditorClassIdentifier: 
   characterName: Al Cabone
   descriptionSprite: {fileID: 21300000, guid: ab531c03c59bd034da0d4fe8d1334702, type: 3}

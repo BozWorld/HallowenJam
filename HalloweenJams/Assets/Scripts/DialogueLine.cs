@@ -11,5 +11,5 @@ public class DialogueLine
     public int faceIdx;
     public int nextLineIndex = 0;
     public List<int> ChoiceIdx = new List<int>();
-    public enum DialogueType { Dialogue = 0, Choice = 1, GoodEnd = 2, BadEnd = 3}
+    public enum DialogueType {   Dialogue = 0, Choice = 1, GoodEnd = 2, BadEnd = 3}
 }

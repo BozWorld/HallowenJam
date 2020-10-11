@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69933a3e51b1ef4488ae190d56f18bc7, type: 3}
+  m_Name: Bonnibel
+  m_EditorClassIdentifier: 
+  characterName: Bonnibel
+  descriptionSprite: {fileID: 21300000, guid: ac36f247b513bbf4db7f891f0adf86d2, type: 3}
+  spriteVisage:
+  - {fileID: -9213947296234618086, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  - {fileID: -4902571377038987540, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  - {fileID: 1050799177848738055, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  characterSprite: {fileID: -515782843776526610, guid: 8f14231a71aede54a85e4bedb5509cb5, type: 3}
+  _dialogueList:
+  - type: 1
+    text: "Hello there. I didn\u2019t think I'd see a sorcerer around here. What
+      are you doing this deep in the forest? "
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 0
+    text: 
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 0
+    text: 
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 0
+    text: 
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 
+  - type: 0
+    text: 
+    faceIdx: 0
+    nextLineIndex: 0
+    ChoiceIdx: 

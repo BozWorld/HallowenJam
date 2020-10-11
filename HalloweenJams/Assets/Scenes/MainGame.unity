@@ -138,6 +138,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4536339647342626909, guid: c6d5cf86ba36c2847883318d7676cad4, type: 3}
   m_PrefabInstance: {fileID: 1850397927}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &601683100 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+  m_PrefabInstance: {fileID: 830241399675704923}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa765b66fba9a540b34e263b8186896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &697765750
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,6 +247,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 601683100}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChoiceMaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 45324058, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 601683100}
+    - target: {fileID: 1476281809, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ContinueText
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 601683100}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChoiceMaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722299995, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1603459112280883517, guid: 4123536f4835fea4684e671fe0720c90, type: 3}
       propertyPath: m_Name
       value: UiManager
@@ -496,6 +539,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].faceImage.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
       propertyPath: textDisplay
       value: 
       objectReference: {fileID: 772444697}
@@ -535,6 +590,50 @@ PrefabInstance:
       propertyPath: _Player
       value: 
       objectReference: {fileID: 947014980}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].text
+      value: "dis moi qu'elle est ton chocolat pr\xE9f\xE9r\xE9"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[1].text
+      value: 'noir '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].nextLineIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[2].text
+      value: blanc
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].ChoiceIdx.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[0].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[3].text
+      value: t'es chelou gros
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[1].nextLineIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[2].nextLineIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680907704566149371, guid: 661c0a614275db54088e56b534473290, type: 3}
+      propertyPath: _dialogueList.Array.data[4].text
+      value: kaka prout
+      objectReference: {fileID: 0}
     - target: {fileID: 3680907704709868476, guid: 661c0a614275db54088e56b534473290, type: 3}
       propertyPath: textDisplay
       value: 

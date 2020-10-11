@@ -12,7 +12,7 @@ public class minionSO : ScriptableObject
     public Sprite descriptionSprite; 
     public Sprite[] spriteVisage;
     public Sprite characterSprite;
-    [SerializeField] private List<DialogueLine> _dialogueList = new List<DialogueLine>();
+    public List<DialogueLine> _dialogueList = new List<DialogueLine>();
     // Start is called before the first frame update
     void Start()
     {
